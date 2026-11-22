@@ -89,7 +89,6 @@ cd bitquery-app
 
 # 3. Tambahkan ke .env
 BITQUERY_TOKEN=P5ClLE2_eysYxy4a4tCIG_1opS
-CACHE_STORE=file
 
 # 4. Jalankan
 php artisan serve
