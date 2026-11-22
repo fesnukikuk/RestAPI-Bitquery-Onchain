@@ -99,6 +99,5 @@ Buka http://127.0.0.1:8000
 ## Catatan
 
 - Token diambil dari akun Bitquery (https://ide.bitquery.io/) dan dikirim sebagai `Authorization: Bearer ...`.
-- Jangan commit `.env` ke Git.
 - Kalau muncul error 401, buat token baru. Kalau muncul error GraphQL, pesannya tampil di halaman; query ada di `app/Services/BitqueryService.php` dan bisa dicoba dulu di IDE Bitquery.
 - Hasil query di-cache 60 detik (`BITQUERY_CACHE_TTL`) agar kuota API hemat.
